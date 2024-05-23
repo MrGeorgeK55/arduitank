@@ -12,6 +12,10 @@ const int enableB = 10;
 const int RPWM = 11;
 const int LPWM = 12;
 
+// HC - 05 Bluetooth Module
+const int TX = 2;
+const int RX = 3;
+
 void setup() {
   // Set all the motor control pins to outputs
   pinMode(motorA1, OUTPUT);
